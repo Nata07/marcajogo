@@ -25,6 +25,9 @@
     "vite": "^4.0.2"
   },
   "dependencies": {
+    "@marcajogo-ui/react": "*",
+    "@marcajogo-ui/tokens": "*",
+    "@marcajogo-ui/eslint-config": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
