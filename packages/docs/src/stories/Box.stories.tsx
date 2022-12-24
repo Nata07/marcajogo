@@ -1,16 +1,13 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Box, BoxProps } from '@marcajogo-ui/react'
+import React from 'react'
+import { Box, BoxProps, Text } from '@marcajogo-ui/react'
 
 export default {
   title: 'Surfaces/Box',
   component: Box,
   args: {
-    children: (
-      <>
-        <span>Testando box</span>
-      </>
-    ),
+    children: <Text>Testing box</Text>,
   },
-} as Meta
+} as Meta<BoxProps>
 
 export const Primary: StoryObj<BoxProps> = {}
