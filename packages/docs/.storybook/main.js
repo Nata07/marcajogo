@@ -16,7 +16,7 @@ module.exports = {
   "features": {
     "storyStoreV7": true
   },
-  viteFInal: (config, {congifType}) => {
+  viteFInal: (config, {configType}) => {
     if(configType === 'PRODUCTION') {
       config.base = '/marcajogo/'
     }
