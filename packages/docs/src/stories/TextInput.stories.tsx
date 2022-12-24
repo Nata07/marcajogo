@@ -1,3 +1,4 @@
+import React from 'react'
 import { StoryObj, Meta } from '@storybook/react'
 import { Box, Text, TextInput, TextInputProps } from '@marcajogo-ui/react'
 
