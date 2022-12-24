@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "start-storybook -p 6006",
-    "deploy": "storybook-to-ghpages",
+    "deploy-storybook": "storybook-to-ghpages",
     "build": "build-storybook"
   },
   "keywords": [],
@@ -20,6 +20,7 @@
     "@storybook/addon-links": "^6.5.15",
     "@storybook/builder-vite": "^0.2.6",
     "@storybook/react": "^6.5.15",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "0.0.13",
     "@vitejs/plugin-react": "^3.0.0",
     "babel-loader": "^8.3.0",
@@ -31,7 +32,6 @@
     "@marcajogo-ui/tokens": "*",
     "@marcajogo-ui/ts-config": "*",
     "@storybook/addon-a11y": "^6.5.15",
-    "@storybook/storybook-deployer": "^2.8.16",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
