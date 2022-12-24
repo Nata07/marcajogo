@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/Nata07.png',
     alt: 'Foto de Perfil',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}

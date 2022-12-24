@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "start-storybook -p 6006",
+    "deploy": "storybook-to-ghpages",
     "build": "build-storybook"
   },
   "keywords": [],
@@ -29,6 +30,8 @@
     "@marcajogo-ui/react": "*",
     "@marcajogo-ui/tokens": "*",
     "@marcajogo-ui/ts-config": "*",
+    "@storybook/addon-a11y": "^6.5.15",
+    "@storybook/storybook-deployer": "^2.8.16",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
