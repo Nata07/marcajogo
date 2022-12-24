@@ -1,0 +1,2 @@
+import{A as t}from"./index.8d40a394.js";import"./index.2cd14e69.js";import"./iframe.158f105d.js";import"./index.b91ec48b.js";import"./jsx-runtime.9d329926.js";const p={title:"Data display/Avatar",component:t,args:{src:"https://github.com/Nata07.png",alt:"Foto de Perfil"},argTypes:{src:{control:{type:"text"}}}},c={},e={args:{src:void 0}},m=["Primary","WithFallback"];export{c as Primary,e as WithFallback,m as __namedExportsOrder,p as default};
+//# sourceMappingURL=Avartar.stories.1c2ebf0e.js.map

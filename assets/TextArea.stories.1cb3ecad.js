@@ -1,0 +1,2 @@
+import{b as s,B as e,T as a}from"./index.8d40a394.js";import{a as t,j as o}from"./jsx-runtime.9d329926.js";import"./index.2cd14e69.js";import"./iframe.158f105d.js";import"./index.b91ec48b.js";const d={title:"Form/Text Area",component:s,args:{},decorators:[r=>t(e,{as:"label",css:{display:"flex",flexDirection:"column",gap:"$2"},children:[o(a,{size:"sm",children:"Observations"}),r()]})]},x={},p={args:{disabled:!0}},b=["Primary","Disabled"];export{p as Disabled,x as Primary,b as __namedExportsOrder,d as default};
+//# sourceMappingURL=TextArea.stories.1cb3ecad.js.map
